@@ -1,4 +1,4 @@
-,name,city,state
+ID,name,city,state
 0,NorthGate Brewing ,Minneapolis, MN
 1,Against the Grain Brewery,Louisville, KY
 2,Jack's Abby Craft Lagers,Framingham, MA
@@ -96,7 +96,7 @@
 94,Warped Wing Brewing Company,Dayton, OH
 95,Blackrocks Brewery,Marquette, MA
 96,Catawba Valley Brewing Company,Morganton, NC
-97,Tröegs Brewing Company,Hershey, PA
+97,Tr̦egs Brewing Company,Hershey, PA
 98,Mission Brewery,San Diego, CA
 99,Christian Moerlein Brewing Company,Cincinnati, OH
 100,West Sixth Brewing,Lexington, KY

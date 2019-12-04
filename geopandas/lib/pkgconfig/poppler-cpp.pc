@@ -1,0 +1,12 @@
+prefix=/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas
+libdir=/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib
+includedir=/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/include
+
+Name: poppler-cpp
+Description: cpp backend for Poppler PDF rendering library
+Version: 0.67.0
+Requires: 
+Requires.private: poppler = 0.67.0
+
+Libs: -L${libdir} -lpoppler-cpp
+Cflags: -I${includedir}/poppler/cpp

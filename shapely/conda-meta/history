@@ -1,0 +1,30 @@
+==> 2019-12-03 21:07:25 <==
+# cmd: /opt/tljh/user/bin/conda install --use-local -p . -c conda-forge shapely
+# conda version: 4.7.12
++conda-forge::_libgcc_mutex-0.1-main
++conda-forge::ca-certificates-2019.11.28-hecc5488_0
++conda-forge::certifi-2019.11.28-py38_0
++conda-forge::geos-3.8.0-he1b5a44_0
++conda-forge::ld_impl_linux-64-2.33.1-h53a641e_7
++conda-forge::libblas-3.8.0-14_openblas
++conda-forge::libcblas-3.8.0-14_openblas
++conda-forge::libffi-3.2.1-he1b5a44_1006
++conda-forge::libgcc-ng-9.2.0-hdf63c60_0
++conda-forge::libgfortran-ng-7.3.0-hdf63c60_2
++conda-forge::liblapack-3.8.0-14_openblas
++conda-forge::libopenblas-0.3.7-h5ec1e0e_4
++conda-forge::libstdcxx-ng-9.2.0-hdf63c60_0
++conda-forge::ncurses-6.1-hf484d3e_1002
++conda-forge::numpy-1.17.3-py38h95a1406_0
++conda-forge::openssl-1.1.1d-h516909a_0
++conda-forge::pip-19.3.1-py38_0
++conda-forge::python-3.8.0-h357f687_5
++conda-forge::readline-8.0-hf8c457e_0
++conda-forge::setuptools-42.0.2-py38_0
++conda-forge::shapely-1.6.4-py38h5d51c17_1007
++conda-forge::sqlite-3.30.1-hcee41ef_0
++conda-forge::tk-8.6.10-hed695b0_0
++conda-forge::wheel-0.33.6-py38_0
++conda-forge::xz-5.2.4-h14c3975_1001
++conda-forge::zlib-1.2.11-h516909a_1006
+# update specs: ['shapely']

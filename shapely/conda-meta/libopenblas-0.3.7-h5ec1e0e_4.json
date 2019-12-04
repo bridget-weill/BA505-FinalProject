@@ -1,0 +1,53 @@
+{
+  "build": "h5ec1e0e_4",
+  "build_number": 4,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [
+    "openblas >=0.3.7,<0.3.8.0a0"
+  ],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "libgfortran-ng >=7,<8.0a0"
+  ],
+  "extracted_package_dir": "/home/jupyter-bweill/.conda/pkgs/libopenblas-0.3.7-h5ec1e0e_4",
+  "features": "",
+  "files": [
+    "lib/libopenblas.so.0",
+    "lib/libopenblasp-r0.3.7.so"
+  ],
+  "fn": "libopenblas-0.3.7-h5ec1e0e_4.tar.bz2",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/home/jupyter-bweill/.conda/pkgs/libopenblas-0.3.7-h5ec1e0e_4",
+    "type": 1
+  },
+  "md5": "82150de8d7decd04da80c2042118c9a3",
+  "name": "libopenblas",
+  "package_tarball_full_path": "/home/jupyter-bweill/.conda/pkgs/libopenblas-0.3.7-h5ec1e0e_4.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libopenblas.so.0",
+        "path_type": "softlink",
+        "sha256": "6551896cb267eeb2a155229a769d9c140f76b2c6a061ee119a30e19bd159ecd2",
+        "size_in_bytes": 29900896
+      },
+      {
+        "_path": "lib/libopenblasp-r0.3.7.so",
+        "path_type": "hardlink",
+        "sha256": "6551896cb267eeb2a155229a769d9c140f76b2c6a061ee119a30e19bd159ecd2",
+        "sha256_in_prefix": "6551896cb267eeb2a155229a769d9c140f76b2c6a061ee119a30e19bd159ecd2",
+        "size_in_bytes": 29900896
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "4c58dcae66367d33934bd78bfb0f567d96ef824cfb14454e1a11a0d964cfc001",
+  "size": 8001819,
+  "subdir": "linux-64",
+  "timestamp": 1575277481374,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libopenblas-0.3.7-h5ec1e0e_4.tar.bz2",
+  "version": "0.3.7"
+}

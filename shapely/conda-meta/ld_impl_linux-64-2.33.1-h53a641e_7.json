@@ -1,0 +1,41 @@
+{
+  "build": "h53a641e_7",
+  "build_number": 7,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/home/jupyter-bweill/.conda/pkgs/ld_impl_linux-64-2.33.1-h53a641e_7",
+  "features": "",
+  "files": [
+    "bin/x86_64-conda_cos6-linux-gnu-ld"
+  ],
+  "fn": "ld_impl_linux-64-2.33.1-h53a641e_7.tar.bz2",
+  "license": "GPL 3",
+  "link": {
+    "source": "/home/jupyter-bweill/.conda/pkgs/ld_impl_linux-64-2.33.1-h53a641e_7",
+    "type": 1
+  },
+  "md5": "d848377629a3daec2374905fd656276b",
+  "name": "ld_impl_linux-64",
+  "package_tarball_full_path": "/home/jupyter-bweill/.conda/pkgs/ld_impl_linux-64-2.33.1-h53a641e_7.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/x86_64-conda_cos6-linux-gnu-ld",
+        "path_type": "hardlink",
+        "sha256": "28ba85ec88106cb8d2a21ee3d9b2e1d628282c693035d4dbe0fd7c24cf4b1d11",
+        "sha256_in_prefix": "28ba85ec88106cb8d2a21ee3d9b2e1d628282c693035d4dbe0fd7c24cf4b1d11",
+        "size_in_bytes": 2709952
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "7cd909a0540d0c7285f0879ee158ddfc0cbf29944823868047394e0c816be786",
+  "size": 668544,
+  "subdir": "linux-64",
+  "timestamp": 1574385257453,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ld_impl_linux-64-2.33.1-h53a641e_7.tar.bz2",
+  "version": "2.33.1"
+}

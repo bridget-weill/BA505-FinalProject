@@ -1,0 +1,74 @@
+#!/bin/sh
+CONFIG_LIBS="-L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -lgdal"
+CONFIG_DEP_LIBS=" -lcrypto -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -ltiledb -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -lpoppler -ljson-c -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -lfreexl -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -lgeos_c -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -lsqlite3 -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -lkmlbase -lkmldom -lkmlengine -lkmlxsd -lkmlregionator -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -lexpat -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -lxerces-c -lpthread -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -lopenjp2 -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -lnetcdf -lmfhdf -ldf -lhdf5_hl -lhdf5 -lrt -lpthread -lz -ldl -lm -lcurl -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -lhdf5  -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -lmfhdf -ldf -lgif -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -ljpeg -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -lgeotiff -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -ltiff -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -lpng -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -lcfitsio -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -lpq -lzstd -llzma -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -lproj -lz -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -lpthread -lm -lrt -ldl  -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib64 -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -ldap -ldapserver -ldapclient -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -lcurl -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -lxml2 -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -lz -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -llzma -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -licui18n -licuuc -licudata -lm -ldl -lpthread -luuid  -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -lspatialite -lpcre   -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -lcurl            -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -lxml2 -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -lz -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -llzma -lpthread -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -lm -ldl      -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -lkea -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -lhdf5 -lhdf5_hl -lhdf5_cpp "
+CONFIG_PREFIX="/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas"
+CONFIG_CFLAGS="-I/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/include"
+CONFIG_DATA="/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/share/gdal"
+CONFIG_VERSION="3.0.2"
+CONFIG_OGR_ENABLED=yes
+CONFIG_GNM_ENABLED=yes
+CONFIG_FORMATS="derived gtiff hfa mem vrt  aaigrid adrg aigrid airsar arg blx bmp bsb cals ceos ceos2 coasp cosar ctg dimap dted e00grid elas envisat ers fit gff gsg gxf hf2 idrisi ignfheightasciigrid ilwis ingr iris iso8211 jaxapalsar jdem kmlsuperoverlay l1b leveller map mrf msgn ngsgeoid nitf northwood pds prf r raw rmf rs2 safe saga sdts sentinel2 sgi sigdem srtmhgt terragen til tsx usgsdem xpm xyz zmap rik ozi grib eeda plmosaic rda wcs wms wmts daas rasterlite mbtiles pdf tiledb dods openjpeg netcdf kea hdf5 hdf4 gif jpeg png pcraster fits  pcidsk postgisraster"
+usage()
+{
+	cat <<EOF
+Usage: gdal-config [OPTIONS]
+Options:
+	[--prefix[=DIR]]
+	[--libs]
+	[--dep-libs]
+	[--cflags]
+	[--datadir]
+	[--version]
+	[--ogr-enabled]
+	[--gnm-enabled]
+	[--formats]
+EOF
+	exit $1
+}
+
+if test $# -eq 0; then
+	usage 1 1>&2
+fi
+
+case $1 in
+  --libs)
+    echo $CONFIG_LIBS
+    ;;
+
+  --dep-libs)
+    echo $CONFIG_DEP_LIBS
+    ;;
+
+  --cflags)
+    echo $CONFIG_CFLAGS
+    ;;
+
+  --datadir)
+    echo $CONFIG_DATA
+    ;;
+
+  --prefix)
+    echo $CONFIG_PREFIX
+    ;;
+
+  --version)
+    echo $CONFIG_VERSION
+    ;;
+
+  --ogr-enabled)
+    echo yes
+    ;;
+
+  --gnm-enabled)
+    echo $CONFIG_GNM_ENABLED
+    ;;
+
+  --formats)
+    echo $CONFIG_FORMATS
+    ;;
+
+  *)
+    usage 1 1>&2
+    ;;
+
+esac

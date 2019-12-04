@@ -1,0 +1,9 @@
+Name: libpq
+Description: PostgreSQL libpq library
+Url: http://www.postgresql.org/
+Version: 11.2
+Requires: 
+Requires.private: 
+Cflags: -I/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/include
+Libs: -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -lpq
+Libs.private: -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -lssl -lcrypto -lgssapi_krb5 -lcrypt

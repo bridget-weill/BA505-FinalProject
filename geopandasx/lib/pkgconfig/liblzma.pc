@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas
+exec_prefix=/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas
+libdir=/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib
+includedir=/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://tukaani.org/xz/
+Version: 5.2.4
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private: -pthread -lrt  

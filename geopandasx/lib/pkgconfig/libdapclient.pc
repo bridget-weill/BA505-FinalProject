@@ -1,0 +1,16 @@
+prefix=/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+ccompiler=/tmp/build/80754af9/libdap4_1532083594984/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc
+cppcompiler=/tmp/build/80754af9/libdap4_1532083594984/_build_env/bin/x86_64-conda_cos6-linux-gnu-c++
+
+Name: libdapclient
+Description: Client side of the OPeNDAP C++ implementation of the Data Access Protocol
+Version: 3.19.1
+Requires: libdap
+Libs: -L${libdir} -ldapclient
+Libs.private: -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -lcurl
+Requires.private: 
+Cflags: -I${includedir}/libdap
+

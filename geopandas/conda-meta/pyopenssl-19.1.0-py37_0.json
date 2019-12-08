@@ -1,0 +1,214 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "cryptography >=2.8",
+    "python >=3.7,<3.8.0a0",
+    "six >=1.5.2"
+  ],
+  "extracted_package_dir": "/home/jupyter-bweill/.conda/pkgs/pyopenssl-19.1.0-py37_0",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/OpenSSL/SSL.py",
+    "lib/python3.7/site-packages/OpenSSL/__init__.py",
+    "lib/python3.7/site-packages/OpenSSL/__pycache__/SSL.cpython-37.pyc",
+    "lib/python3.7/site-packages/OpenSSL/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/OpenSSL/__pycache__/_util.cpython-37.pyc",
+    "lib/python3.7/site-packages/OpenSSL/__pycache__/crypto.cpython-37.pyc",
+    "lib/python3.7/site-packages/OpenSSL/__pycache__/debug.cpython-37.pyc",
+    "lib/python3.7/site-packages/OpenSSL/__pycache__/rand.cpython-37.pyc",
+    "lib/python3.7/site-packages/OpenSSL/__pycache__/tsafe.cpython-37.pyc",
+    "lib/python3.7/site-packages/OpenSSL/__pycache__/version.cpython-37.pyc",
+    "lib/python3.7/site-packages/OpenSSL/_util.py",
+    "lib/python3.7/site-packages/OpenSSL/crypto.py",
+    "lib/python3.7/site-packages/OpenSSL/debug.py",
+    "lib/python3.7/site-packages/OpenSSL/rand.py",
+    "lib/python3.7/site-packages/OpenSSL/tsafe.py",
+    "lib/python3.7/site-packages/OpenSSL/version.py",
+    "lib/python3.7/site-packages/pyOpenSSL-19.1.0.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/pyOpenSSL-19.1.0.dist-info/LICENSE",
+    "lib/python3.7/site-packages/pyOpenSSL-19.1.0.dist-info/METADATA",
+    "lib/python3.7/site-packages/pyOpenSSL-19.1.0.dist-info/RECORD",
+    "lib/python3.7/site-packages/pyOpenSSL-19.1.0.dist-info/WHEEL",
+    "lib/python3.7/site-packages/pyOpenSSL-19.1.0.dist-info/top_level.txt"
+  ],
+  "fn": "pyopenssl-19.1.0-py37_0.tar.bz2",
+  "license": "Apache 2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/home/jupyter-bweill/.conda/pkgs/pyopenssl-19.1.0-py37_0",
+    "type": 1
+  },
+  "md5": "eae359f698f90923041039e45b5b3ebf",
+  "name": "pyopenssl",
+  "package_tarball_full_path": "/home/jupyter-bweill/.conda/pkgs/pyopenssl-19.1.0-py37_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.7/site-packages/OpenSSL/SSL.py",
+        "path_type": "hardlink",
+        "sha256": "b20b06951ea754858b1dfdc61e0ddd241155ebfa6c4f3c828c041cb81701bbe6",
+        "sha256_in_prefix": "b20b06951ea754858b1dfdc61e0ddd241155ebfa6c4f3c828c041cb81701bbe6",
+        "size_in_bytes": 89600
+      },
+      {
+        "_path": "lib/python3.7/site-packages/OpenSSL/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d51e693b5c8d89381186ddae579ac485bb2fef34d2592ed00fd8d5f129871908",
+        "sha256_in_prefix": "d51e693b5c8d89381186ddae579ac485bb2fef34d2592ed00fd8d5f129871908",
+        "size_in_bytes": 447
+      },
+      {
+        "_path": "lib/python3.7/site-packages/OpenSSL/__pycache__/SSL.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "9e425b556741bbc157b75d69a2e25e2332fae5ca14acbeda4af763d53eac067d",
+        "sha256_in_prefix": "9e425b556741bbc157b75d69a2e25e2332fae5ca14acbeda4af763d53eac067d",
+        "size_in_bytes": 78005
+      },
+      {
+        "_path": "lib/python3.7/site-packages/OpenSSL/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ec9c079cfadf05f7f97af703f07fdb8f6bb502a2862b5ebfaa1990c80092b6e8",
+        "sha256_in_prefix": "ec9c079cfadf05f7f97af703f07fdb8f6bb502a2862b5ebfaa1990c80092b6e8",
+        "size_in_bytes": 547
+      },
+      {
+        "_path": "lib/python3.7/site-packages/OpenSSL/__pycache__/_util.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "3eb117067f26d7b1a1c6de65d35d889ae442f48de4731feddb73570434bac8cf",
+        "sha256_in_prefix": "3eb117067f26d7b1a1c6de65d35d889ae442f48de4731feddb73570434bac8cf",
+        "size_in_bytes": 4430
+      },
+      {
+        "_path": "lib/python3.7/site-packages/OpenSSL/__pycache__/crypto.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "48fa439930ff7c3118fefb702ac64a3a3d7da8ada2e9bb41554acfdb07c8d6d3",
+        "sha256_in_prefix": "48fa439930ff7c3118fefb702ac64a3a3d7da8ada2e9bb41554acfdb07c8d6d3",
+        "size_in_bytes": 89042
+      },
+      {
+        "_path": "lib/python3.7/site-packages/OpenSSL/__pycache__/debug.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "2e223cd174d79e2067f60c784d4d113eaa8ab4e13ab3979a07722db21454553f",
+        "sha256_in_prefix": "2e223cd174d79e2067f60c784d4d113eaa8ab4e13ab3979a07722db21454553f",
+        "size_in_bytes": 1128
+      },
+      {
+        "_path": "lib/python3.7/site-packages/OpenSSL/__pycache__/rand.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "cfda7ad5b802037965f1f4ffd494c7fa12a02e08689c19361cd3776883bacd3b",
+        "sha256_in_prefix": "cfda7ad5b802037965f1f4ffd494c7fa12a02e08689c19361cd3776883bacd3b",
+        "size_in_bytes": 1261
+      },
+      {
+        "_path": "lib/python3.7/site-packages/OpenSSL/__pycache__/tsafe.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "62b0469e0a325503d7fdda8fa93ef1b964eaed93d1512fd621273b2ca3d3d619",
+        "sha256_in_prefix": "62b0469e0a325503d7fdda8fa93ef1b964eaed93d1512fd621273b2ca3d3d619",
+        "size_in_bytes": 1295
+      },
+      {
+        "_path": "lib/python3.7/site-packages/OpenSSL/__pycache__/version.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "b7f19d8b1d45f008a7b03a0150e7b8ee7294187c50b4e77d61e6a084a76a7298",
+        "sha256_in_prefix": "b7f19d8b1d45f008a7b03a0150e7b8ee7294187c50b4e77d61e6a084a76a7298",
+        "size_in_bytes": 636
+      },
+      {
+        "_path": "lib/python3.7/site-packages/OpenSSL/_util.py",
+        "path_type": "hardlink",
+        "sha256": "5420ce19b4d262e669d9d8e13df50c4038daa838b4986c03fccd63e323ab8a44",
+        "sha256_in_prefix": "5420ce19b4d262e669d9d8e13df50c4038daa838b4986c03fccd63e323ab8a44",
+        "size_in_bytes": 4528
+      },
+      {
+        "_path": "lib/python3.7/site-packages/OpenSSL/crypto.py",
+        "path_type": "hardlink",
+        "sha256": "d5e9c04fe53a093cdb13e2b240d24587cba503283e7cab192ca1ddea139b605c",
+        "sha256_in_prefix": "d5e9c04fe53a093cdb13e2b240d24587cba503283e7cab192ca1ddea139b605c",
+        "size_in_bytes": 99093
+      },
+      {
+        "_path": "lib/python3.7/site-packages/OpenSSL/debug.py",
+        "path_type": "hardlink",
+        "sha256": "671e861815ea938a2ab79817ad98ce5d1aa20a7031ef210931649f0f13e0301f",
+        "sha256_in_prefix": "671e861815ea938a2ab79817ad98ce5d1aa20a7031ef210931649f0f13e0301f",
+        "size_in_bytes": 1049
+      },
+      {
+        "_path": "lib/python3.7/site-packages/OpenSSL/rand.py",
+        "path_type": "hardlink",
+        "sha256": "f421a8c744496ebadd1f52fb4a2b0441885c3a9d3282986e23cd353b36304a81",
+        "sha256_in_prefix": "f421a8c744496ebadd1f52fb4a2b0441885c3a9d3282986e23cd353b36304a81",
+        "size_in_bytes": 1042
+      },
+      {
+        "_path": "lib/python3.7/site-packages/OpenSSL/tsafe.py",
+        "path_type": "hardlink",
+        "sha256": "5a43caf3e6ae05091798d2acf00029ea904ce8db03bb1950d0229599a31a9c82",
+        "sha256_in_prefix": "5a43caf3e6ae05091798d2acf00029ea904ce8db03bb1950d0229599a31a9c82",
+        "size_in_bytes": 1102
+      },
+      {
+        "_path": "lib/python3.7/site-packages/OpenSSL/version.py",
+        "path_type": "hardlink",
+        "sha256": "72af7e89a1d6a4cbf9527af76106bca45658432fe66d09565085884118fd5c3e",
+        "sha256_in_prefix": "72af7e89a1d6a4cbf9527af76106bca45658432fe66d09565085884118fd5c3e",
+        "size_in_bytes": 626
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyOpenSSL-19.1.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyOpenSSL-19.1.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "sha256_in_prefix": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "size_in_bytes": 11358
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyOpenSSL-19.1.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "8e9128557155852b716daecfe1f2297979210f34e57890566f12e91d64fcecd3",
+        "sha256_in_prefix": "8e9128557155852b716daecfe1f2297979210f34e57890566f12e91d64fcecd3",
+        "size_in_bytes": 4729
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyOpenSSL-19.1.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "238a1db375ee2cfc3a1883064b63be47b89af873598fb24dbcc854429ca1c036",
+        "sha256_in_prefix": "238a1db375ee2cfc3a1883064b63be47b89af873598fb24dbcc854429ca1c036",
+        "size_in_bytes": 1448
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyOpenSSL-19.1.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "f3335865bc10497a01f487d73a33df78dc2f02c00b0237df824dbb16abc259ba",
+        "sha256_in_prefix": "f3335865bc10497a01f487d73a33df78dc2f02c00b0237df824dbb16abc259ba",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyOpenSSL-19.1.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "34dc56a92f2128d261d9c5176b545938c5fad9525fc9df14468d53b189d1fcc5",
+        "sha256_in_prefix": "34dc56a92f2128d261d9c5176b545938c5fad9525fc9df14468d53b189d1fcc5",
+        "size_in_bytes": 8
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "3d2db74c4cdc22cdfff152343513c8aa207996e7d7c6b3e32ad6172ae0b15340",
+  "size": 85004,
+  "subdir": "linux-64",
+  "timestamp": 1575227789499,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyopenssl-19.1.0-py37_0.tar.bz2",
+  "version": "19.1.0"
+}

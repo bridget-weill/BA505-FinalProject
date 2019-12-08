@@ -1,0 +1,12 @@
+prefix=/home/jupyter-bweill/final-project-fa2019-natty_daddies/geoplot
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+datadir=${prefix}/share/proj
+
+Name: proj
+Description: Cartographic Projections Library.
+Requires:
+Version: 6.2.1
+Libs: -L${libdir} -lproj
+Cflags: -I${includedir}

@@ -1,0 +1,126 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python",
+    "wrapt <2,>=1"
+  ],
+  "extracted_package_dir": "/home/jupyter-bweill/.conda/pkgs/deprecated-1.2.7-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/Deprecated-1.2.7.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/Deprecated-1.2.7.dist-info/LICENSE.rst",
+    "lib/python3.7/site-packages/Deprecated-1.2.7.dist-info/METADATA",
+    "lib/python3.7/site-packages/Deprecated-1.2.7.dist-info/RECORD",
+    "lib/python3.7/site-packages/Deprecated-1.2.7.dist-info/WHEEL",
+    "lib/python3.7/site-packages/Deprecated-1.2.7.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/deprecated/__init__.py",
+    "lib/python3.7/site-packages/deprecated/classic.py",
+    "lib/python3.7/site-packages/deprecated/sphinx.py",
+    "lib/python3.7/site-packages/deprecated/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/deprecated/__pycache__/classic.cpython-37.pyc",
+    "lib/python3.7/site-packages/deprecated/__pycache__/sphinx.cpython-37.pyc"
+  ],
+  "fn": "deprecated-1.2.7-py_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/jupyter-bweill/.conda/pkgs/deprecated-1.2.7-py_0",
+    "type": 1
+  },
+  "md5": "a68d4a60e4f5e29fb179f0615cf54799",
+  "name": "deprecated",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/jupyter-bweill/.conda/pkgs/deprecated-1.2.7-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/Deprecated-1.2.7.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/Deprecated-1.2.7.dist-info/LICENSE.rst",
+        "path_type": "hardlink",
+        "sha256": "1e83edd15be419b5d5bde372e325e527ff4f9915f548e7c75314b41f6699e83c",
+        "sha256_in_prefix": "1e83edd15be419b5d5bde372e325e527ff4f9915f548e7c75314b41f6699e83c",
+        "size_in_bytes": 1081
+      },
+      {
+        "_path": "site-packages/Deprecated-1.2.7.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "ef1f1e920d1f28133195582e5158db8593ff8d203a910d85cb205a2b79efc5c7",
+        "sha256_in_prefix": "ef1f1e920d1f28133195582e5158db8593ff8d203a910d85cb205a2b79efc5c7",
+        "size_in_bytes": 5245
+      },
+      {
+        "_path": "site-packages/Deprecated-1.2.7.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "7eb85dad8ceec468ae92d5632569bb2b808113e151f4c549f607c222e39a32b9",
+        "sha256_in_prefix": "7eb85dad8ceec468ae92d5632569bb2b808113e151f4c549f607c222e39a32b9",
+        "size_in_bytes": 816
+      },
+      {
+        "_path": "site-packages/Deprecated-1.2.7.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "f3335865bc10497a01f487d73a33df78dc2f02c00b0237df824dbb16abc259ba",
+        "sha256_in_prefix": "f3335865bc10497a01f487d73a33df78dc2f02c00b0237df824dbb16abc259ba",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/Deprecated-1.2.7.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "9c76ce61ac0a3d0404e65425fada140752414498d4ca7fe6fcc6fc4552744630",
+        "sha256_in_prefix": "9c76ce61ac0a3d0404e65425fada140752414498d4ca7fe6fcc6fc4552744630",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "site-packages/deprecated/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0e60082cd2b62fbda18c816256b7dd6b1931415e8d5b3f1229259957fde64639",
+        "sha256_in_prefix": "0e60082cd2b62fbda18c816256b7dd6b1931415e8d5b3f1229259957fde64639",
+        "size_in_bytes": 312
+      },
+      {
+        "_path": "site-packages/deprecated/classic.py",
+        "path_type": "hardlink",
+        "sha256": "df92c6a21c9b8ff57a89985519b97baee14e2f3db17bf31f50e2040a8bd1cf00",
+        "sha256_in_prefix": "df92c6a21c9b8ff57a89985519b97baee14e2f3db17bf31f50e2040a8bd1cf00",
+        "size_in_bytes": 8179
+      },
+      {
+        "_path": "site-packages/deprecated/sphinx.py",
+        "path_type": "hardlink",
+        "sha256": "925f5a554d8deab83317994a911fc183339d8df61ce8279a04c13e30dc1cb9d6",
+        "sha256_in_prefix": "925f5a554d8deab83317994a911fc183339d8df61ce8279a04c13e30dc1cb9d6",
+        "size_in_bytes": 7236
+      },
+      {
+        "_path": "lib/python3.7/site-packages/deprecated/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/deprecated/__pycache__/classic.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/deprecated/__pycache__/sphinx.cpython-37.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "96bece7ef09fbb8377b60ac2822913382782ae3d081f7adad3ec26f890d857b2",
+  "size": 10193,
+  "subdir": "noarch",
+  "timestamp": 1574469153735,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/deprecated-1.2.7-py_0.tar.bz2",
+  "version": "1.2.7"
+}

@@ -1,0 +1,335 @@
+{
+  "build": "h20c2e04_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "krb5 >=1.16.1,<1.17.0a0",
+    "libgcc-ng >=7.3.0",
+    "libpq 11.2 h20c2e04_0",
+    "openssl >=1.1.1b,<1.1.2a",
+    "readline >=7.0,<8.0a0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "extracted_package_dir": "/home/jupyter-bweill/.conda/pkgs/postgresql-11.2-h20c2e04_0",
+  "features": "",
+  "files": [
+    "bin/clusterdb",
+    "bin/createdb",
+    "bin/createuser",
+    "bin/dropdb",
+    "bin/dropuser",
+    "bin/ecpg",
+    "bin/initdb",
+    "bin/pg_archivecleanup",
+    "bin/pg_basebackup",
+    "bin/pg_controldata",
+    "bin/pg_ctl",
+    "bin/pg_dump",
+    "bin/pg_dumpall",
+    "bin/pg_isready",
+    "bin/pg_receivewal",
+    "bin/pg_recvlogical",
+    "bin/pg_resetwal",
+    "bin/pg_restore",
+    "bin/pg_rewind",
+    "bin/pg_test_fsync",
+    "bin/pg_test_timing",
+    "bin/pg_upgrade",
+    "bin/pg_verify_checksums",
+    "bin/pg_waldump",
+    "bin/pgbench",
+    "bin/postgres",
+    "bin/postmaster",
+    "bin/psql",
+    "bin/reindexdb",
+    "bin/vacuumdb"
+  ],
+  "fn": "postgresql-11.2-h20c2e04_0.conda",
+  "legacy_bz2_md5": "d8cf607b84847736cd27b83ed02586d2",
+  "link": {
+    "source": "/home/jupyter-bweill/.conda/pkgs/postgresql-11.2-h20c2e04_0",
+    "type": 1
+  },
+  "md5": "1028315476c411842d65cd61b267338c",
+  "name": "postgresql",
+  "package_tarball_full_path": "/home/jupyter-bweill/.conda/pkgs/postgresql-11.2-h20c2e04_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/clusterdb",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/tmp/build/80754af9/postgresql-split_1552510884761/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "1ab53da92c2d75aa3d2e81f04f021c081d9bd3f0b5662e50c7549361bdf585ed",
+        "sha256_in_prefix": "8172eff66b2bee7947d335207844fea0a0786ceb918e477947a5e2a83ac45929",
+        "size_in_bytes": 75568
+      },
+      {
+        "_path": "bin/createdb",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/tmp/build/80754af9/postgresql-split_1552510884761/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "647741dd393b54648babf3942b25b552474a3860b42d18bc5d8c5b0293db2961",
+        "sha256_in_prefix": "cf61bc820cb16267268a74a2726b77e7052995d31708ffcb286ce4f83968da02",
+        "size_in_bytes": 66688
+      },
+      {
+        "_path": "bin/createuser",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/tmp/build/80754af9/postgresql-split_1552510884761/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "3baad1adf3339a420a8ba34154cc52f97e0b9162e9e3955137b9b5d930a56bcd",
+        "sha256_in_prefix": "4dea1aa709885ccd2cba58c9e3844b02f18a78df38a7c4b1dbe1a83f3e3f3edb",
+        "size_in_bytes": 71248
+      },
+      {
+        "_path": "bin/dropdb",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/tmp/build/80754af9/postgresql-split_1552510884761/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "12ba04f59f4d87cca3c07f6b28c19eba5ff46bfefbc6d8c540182cef28bc6cc3",
+        "sha256_in_prefix": "fe6575cfcd37b94a11e7df363a6f31c4a1ecea2b95d0b23a16ced44e4cb4d9c2",
+        "size_in_bytes": 65544
+      },
+      {
+        "_path": "bin/dropuser",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/tmp/build/80754af9/postgresql-split_1552510884761/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "286dd26b6da84fb14dabbbcbf8be110337d67ea5410316d3512f87d012ef9a5a",
+        "sha256_in_prefix": "64876889511be61c8983634a9357a7c6d6112f6d54cb0950240eee2e2a31802e",
+        "size_in_bytes": 65464
+      },
+      {
+        "_path": "bin/ecpg",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/tmp/build/80754af9/postgresql-split_1552510884761/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "c832fbd545cf5d184e6e1e470afa82b8481ad1cc90cd982876109c3a751e9b7c",
+        "sha256_in_prefix": "c020e4d7a2f71ddf0ea2c9e13e0c5b112d57f77db952201d23f2f595f2be1129",
+        "size_in_bytes": 937384
+      },
+      {
+        "_path": "bin/initdb",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/tmp/build/80754af9/postgresql-split_1552510884761/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "ce0d39dbdafc23536e7037c150eb031eeacec190e2c578e769b521911053c304",
+        "sha256_in_prefix": "d2c05e7fb75646c0bd63551e284af3c6867aba1a1bc5ce8b07860e8f28dabff5",
+        "size_in_bytes": 131832
+      },
+      {
+        "_path": "bin/pg_archivecleanup",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/tmp/build/80754af9/postgresql-split_1552510884761/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "0a4d67a3fd5c3be66fd8f716085efc130ec815299d4b67b53c3b889296711b42",
+        "sha256_in_prefix": "fddb557f222cd63f8e6a1e816f25fa7c7ea384f79b5f21f0df7153fa996c9524",
+        "size_in_bytes": 34824
+      },
+      {
+        "_path": "bin/pg_basebackup",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/tmp/build/80754af9/postgresql-split_1552510884761/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "83f06ee1ef9305ba7a9c63b3a1cc6ca4961e2310a8e452d5a1d6ba51cbf6a4ec",
+        "sha256_in_prefix": "723f5ffc5fd69531adf603134fb0e80fadeb6e115739ca594c1f2c34b81aa570",
+        "size_in_bytes": 104936
+      },
+      {
+        "_path": "bin/pg_controldata",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/tmp/build/80754af9/postgresql-split_1552510884761/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "971c639ea4a21591788032c9ff6c222a2707af03fb6d403edc7dcaa7e670e20b",
+        "sha256_in_prefix": "2594b71b091525e95b9629a4427cc9f3bd89e911d20801b9648459d22b2295b7",
+        "size_in_bytes": 47432
+      },
+      {
+        "_path": "bin/pg_ctl",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/tmp/build/80754af9/postgresql-split_1552510884761/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "059d9fd0dced743a7c047fcbdd98dcf88d8a22a7334d071a0b4b651668c3097d",
+        "sha256_in_prefix": "a35feae9ec8362248c4d2b6cd7410a3ff4bae06bb63cd47718e8c107b1362969",
+        "size_in_bytes": 67416
+      },
+      {
+        "_path": "bin/pg_dump",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/tmp/build/80754af9/postgresql-split_1552510884761/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "4c086ea7450b5a0e5311a54646eaac827d4a3e79331e80c0826a04b356dc2acb",
+        "sha256_in_prefix": "f679ef52dd803e0b6648232339b685213a1296c3806e3c0ba5d33eb5312e4a42",
+        "size_in_bytes": 436912
+      },
+      {
+        "_path": "bin/pg_dumpall",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/tmp/build/80754af9/postgresql-split_1552510884761/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "22278b39e89f6d1fd9f5b3ba479149b9eec4a636c8b292175ad8f18541c52717",
+        "sha256_in_prefix": "b8c5e861535693ecd090d1c45ac62c650fdd82af43cfaf5b95f92da324bd70fa",
+        "size_in_bytes": 102704
+      },
+      {
+        "_path": "bin/pg_isready",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/tmp/build/80754af9/postgresql-split_1552510884761/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "f97644b871ecd6e053b768444bacca3f1a604732d6201e1d7fc40f0a02ff79e3",
+        "sha256_in_prefix": "ff52dc5074488dffa99b11e9561c263bc3eb6bd43fd1d1ea133ff7637d42fe59",
+        "size_in_bytes": 35088
+      },
+      {
+        "_path": "bin/pg_receivewal",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/tmp/build/80754af9/postgresql-split_1552510884761/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "810647f2615b304ba1d1f609bff530e0ddb5fb8958cc2a8d18ee368058034a59",
+        "sha256_in_prefix": "a45d31fd6b850914faeae0263463b9183d9cb6cd8e8154b82ddc612c79ef9564",
+        "size_in_bytes": 70032
+      },
+      {
+        "_path": "bin/pg_recvlogical",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/tmp/build/80754af9/postgresql-split_1552510884761/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "7131e9de6c1b600c28aee0ce622326c20d694dcfb16c79a255e5f529afc31dfd",
+        "sha256_in_prefix": "8b17683d26cba41730f3b8d79c19d4fe408b31b162a613128f137d682db153e7",
+        "size_in_bytes": 60648
+      },
+      {
+        "_path": "bin/pg_resetwal",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/tmp/build/80754af9/postgresql-split_1552510884761/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "0466db6b0d8203abe8312b28190e3a97a33d6ec976fd620672350f0e5d97e2f1",
+        "sha256_in_prefix": "1d9780b98772088ebb90208fc87a1c066ee5155b006acd3a17718d01656c6dda",
+        "size_in_bytes": 57704
+      },
+      {
+        "_path": "bin/pg_restore",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/tmp/build/80754af9/postgresql-split_1552510884761/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "1c5f142cb72eb953e5e9fad9d9ae308b9a62e715453dcfb86b8b79c21f9fafd2",
+        "sha256_in_prefix": "3d2c572b4f0683c39ffef3a5bc6ccca4f4da443cd5b77819a7ea0a175ffa9c44",
+        "size_in_bytes": 173616
+      },
+      {
+        "_path": "bin/pg_rewind",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/tmp/build/80754af9/postgresql-split_1552510884761/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "57b3b7ea2b1c75c8380b881fad6c6abc5386fcc0a1df9e52f8e7b3179bf421a8",
+        "sha256_in_prefix": "679d5469880f410db8ea6e9a731dd881f670994141bec63c8ecc18dc9a37dc7f",
+        "size_in_bytes": 100224
+      },
+      {
+        "_path": "bin/pg_test_fsync",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/tmp/build/80754af9/postgresql-split_1552510884761/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "c790de85e514edcaa51cb83b518daed11592a482e2ff11f6c7a8c71e952f2f0f",
+        "sha256_in_prefix": "bfaa6945d330eb9bdb432ca00289a428366cf94961765e2937e7f77d63cc661c",
+        "size_in_bytes": 35520
+      },
+      {
+        "_path": "bin/pg_test_timing",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/tmp/build/80754af9/postgresql-split_1552510884761/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "ef399d1b0f5605308635b3c036d74028a735cdb1e542b3cfa734f658ba7bfadf",
+        "sha256_in_prefix": "b8119bcfe3ea18465b0a4a60afc5928652d7d857102dd39e5d3f2179cb95decc",
+        "size_in_bytes": 30368
+      },
+      {
+        "_path": "bin/pg_upgrade",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/tmp/build/80754af9/postgresql-split_1552510884761/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "2f808d4e78b156e6438df18acfd994f4ed721c297964adc2bfa02f4c48569b14",
+        "sha256_in_prefix": "7c7fb7bd1b43a56ca6f6f895b1c4e4a0f17d4ba4ec03c63faf1ca9b1230638f5",
+        "size_in_bytes": 148552
+      },
+      {
+        "_path": "bin/pg_verify_checksums",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/tmp/build/80754af9/postgresql-split_1552510884761/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "cdbebc379be51a7ba92a4b1ebe2bd0a037301f9ac7ca3c6e4aef2efd999e8537",
+        "sha256_in_prefix": "4644fb3db62af9e12b173d6b7e0c760aa5cb4b78757fa2f0e47c705a6360c6fb",
+        "size_in_bytes": 48400
+      },
+      {
+        "_path": "bin/pg_waldump",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/tmp/build/80754af9/postgresql-split_1552510884761/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "6420a641323118fdb2494e01623b089d1470e1ed24cffa84e79f0726d100ed67",
+        "sha256_in_prefix": "ed6ce6bbf42fc090ce7e63864de4455782ff5a93deab704666287cf3713587a3",
+        "size_in_bytes": 90168
+      },
+      {
+        "_path": "bin/pgbench",
+        "path_type": "hardlink",
+        "sha256": "16c3bbcc8b70d877dc8ce5e4f2342cc65c64c73c070869fc524bc9984d555b82",
+        "sha256_in_prefix": "16c3bbcc8b70d877dc8ce5e4f2342cc65c64c73c070869fc524bc9984d555b82",
+        "size_in_bytes": 156824
+      },
+      {
+        "_path": "bin/postgres",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/tmp/build/80754af9/postgresql-split_1552510884761/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "1f24b9e9f6052236b98d2b555f289dc2235251948bb067e0df5b2bd0fad5c527",
+        "sha256_in_prefix": "83fe6c8e140c83d47390af2135292fb1bbeabfa2bb7c0baf351881480091c5cb",
+        "size_in_bytes": 8497240
+      },
+      {
+        "_path": "bin/postmaster",
+        "path_type": "softlink",
+        "sha256": "1f24b9e9f6052236b98d2b555f289dc2235251948bb067e0df5b2bd0fad5c527",
+        "size_in_bytes": 8497240
+      },
+      {
+        "_path": "bin/psql",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/tmp/build/80754af9/postgresql-split_1552510884761/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "42915afad44827e7df8476feb4bf28c9c4def8c5a2d52742a902631632c3c08c",
+        "sha256_in_prefix": "edf92fac05a780c6b6f10aa4ed2a71042f6602bfb6a344a1714d6eaf60820588",
+        "size_in_bytes": 664792
+      },
+      {
+        "_path": "bin/reindexdb",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/tmp/build/80754af9/postgresql-split_1552510884761/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "c956cf44edbb0fcaa5f0c1083d78dd315ab65f8578b93c5a39df27fc40f4103e",
+        "sha256_in_prefix": "acd7722cb536490b805ec8d56c9c6a3031f1f0662022aa7cec3027f757b4dd02",
+        "size_in_bytes": 75664
+      },
+      {
+        "_path": "bin/vacuumdb",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/tmp/build/80754af9/postgresql-split_1552510884761/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "d9f89c6ec4b5b1cc96a0d88d14d1cfce14384c93d1fb385f18f17e4b9e7dd06c",
+        "sha256_in_prefix": "bed885e7e39b1e41fbdf6ce78db068055dfebb728c7bc4198f6c7bb5dc64db59",
+        "size_in_bytes": 80288
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "7df9acf76f5d7626748976fbf9b81016a52d1f5b74c2dd040f4e241c57dbad4a",
+  "size": 3830976,
+  "subdir": "linux-64",
+  "timestamp": 1552511065718,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/postgresql-11.2-h20c2e04_0.conda",
+  "version": "11.2"
+}

@@ -1,0 +1,119 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "click >=3.0",
+    "python",
+    "setuptools"
+  ],
+  "extracted_package_dir": "/home/jupyter-bweill/.conda/pkgs/mercantile-1.1.2-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/mercantile-1.1.2.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/mercantile-1.1.2.dist-info/METADATA",
+    "lib/python3.7/site-packages/mercantile-1.1.2.dist-info/RECORD",
+    "lib/python3.7/site-packages/mercantile-1.1.2.dist-info/WHEEL",
+    "lib/python3.7/site-packages/mercantile-1.1.2.dist-info/entry_points.txt",
+    "lib/python3.7/site-packages/mercantile-1.1.2.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/mercantile/__init__.py",
+    "lib/python3.7/site-packages/mercantile/scripts/__init__.py",
+    "lib/python3.7/site-packages/mercantile/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/mercantile/scripts/__pycache__/__init__.cpython-37.pyc",
+    "bin/mercantile"
+  ],
+  "fn": "mercantile-1.1.2-py_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/jupyter-bweill/.conda/pkgs/mercantile-1.1.2-py_0",
+    "type": 1
+  },
+  "md5": "754f033fdae107b997a775fb3899bca1",
+  "name": "mercantile",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/jupyter-bweill/.conda/pkgs/mercantile-1.1.2-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/mercantile-1.1.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/mercantile-1.1.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "f7a46b5dbc6d95668799826d1935b0e755756950fc37452a83ad1dc956ef64d3",
+        "sha256_in_prefix": "f7a46b5dbc6d95668799826d1935b0e755756950fc37452a83ad1dc956ef64d3",
+        "size_in_bytes": 4483
+      },
+      {
+        "_path": "site-packages/mercantile-1.1.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "951ec990568ebfccd46e31ff71980e7235e40aeeefd0f32010629b9e014660c7",
+        "sha256_in_prefix": "951ec990568ebfccd46e31ff71980e7235e40aeeefd0f32010629b9e014660c7",
+        "size_in_bytes": 816
+      },
+      {
+        "_path": "site-packages/mercantile-1.1.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "ae121453793f815da20b2a4e34babecb0f2102f1ae5fe0680e02ffa2f0621d6d",
+        "sha256_in_prefix": "ae121453793f815da20b2a4e34babecb0f2102f1ae5fe0680e02ffa2f0621d6d",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/mercantile-1.1.2.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "bdc993889eef15a4af051301e94936829061c1aa2ee8d1ca87660d6114c25f16",
+        "sha256_in_prefix": "bdc993889eef15a4af051301e94936829061c1aa2ee8d1ca87660d6114c25f16",
+        "size_in_bytes": 71
+      },
+      {
+        "_path": "site-packages/mercantile-1.1.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "4e69d45cee98a9f106248ee371df95aaf55faa648e9378456ee226b7667a7554",
+        "sha256_in_prefix": "4e69d45cee98a9f106248ee371df95aaf55faa648e9378456ee226b7667a7554",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "site-packages/mercantile/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "93ee09d73c6a74f3f3d5ea0c3dd28af8dccea03a648532b48372f04514358c7f",
+        "sha256_in_prefix": "93ee09d73c6a74f3f3d5ea0c3dd28af8dccea03a648532b48372f04514358c7f",
+        "size_in_bytes": 17906
+      },
+      {
+        "_path": "site-packages/mercantile/scripts/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a9abcd0d61959c8733f08ddf9efed38516ee2baca8b81bc272f8d737cd84e45a",
+        "sha256_in_prefix": "a9abcd0d61959c8733f08ddf9efed38516ee2baca8b81bc272f8d737cd84e45a",
+        "size_in_bytes": 15783
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mercantile/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/mercantile/scripts/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/mercantile",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "509af2c2455e8f94980079ed5a575bf813a0b34c570f2f2ad536a6006a1e4d2b",
+  "size": 13922,
+  "subdir": "noarch",
+  "timestamp": 1565047404750,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/mercantile-1.1.2-py_0.tar.bz2",
+  "version": "1.1.2"
+}

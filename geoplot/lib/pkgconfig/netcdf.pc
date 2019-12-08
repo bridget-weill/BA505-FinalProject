@@ -1,0 +1,13 @@
+prefix=/home/jupyter-bweill/final-project-fa2019-natty_daddies/geoplot
+exec_prefix=/home/jupyter-bweill/final-project-fa2019-natty_daddies/geoplot
+libdir=/home/jupyter-bweill/final-project-fa2019-natty_daddies/geoplot/lib
+includedir=/home/jupyter-bweill/final-project-fa2019-natty_daddies/geoplot/include
+ccompiler=/home/conda/feedstock_root/build_artifacts/libnetcdf_1545075232789/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc
+
+Name: netCDF
+Description: NetCDF Client Library for C
+URL: http://www.unidata.ucar.edu/netcdf
+Version: 4.6.2
+Libs: -L${libdir} -lnetcdf -lmfhdf -ldf -lhdf5_hl -lhdf5 -lrt -lpthread -lz -ldl -lm -lcurl
+Cflags: -I${includedir}
+

@@ -1,0 +1,9 @@
+Name: libecpg_compat
+Description: PostgreSQL libecpg_compat library
+Url: http://www.postgresql.org/
+Version: 11.2
+Requires: 
+Requires.private: libecpg libpgtypes
+Cflags: -I/home/jupyter-bweill/final-project-fa2019-natty_daddies/geoplot/include
+Libs: -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geoplot/lib -lecpg_compat
+Libs.private: -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geoplot/lib -lm

@@ -1,0 +1,8 @@
+==> 2019-12-08 00:51:52 <==
+# cmd: /opt/tljh/user/bin/conda install --use-local -p . -c conda-forge libspatialindex=1.9.3
+# conda version: 4.7.12
++conda-forge::_libgcc_mutex-0.1-main
++conda-forge::libgcc-ng-9.2.0-hdf63c60_0
++conda-forge::libspatialindex-1.9.3-he1b5a44_1
++conda-forge::libstdcxx-ng-9.2.0-hdf63c60_0
+# update specs: ['libspatialindex=1.9.3']

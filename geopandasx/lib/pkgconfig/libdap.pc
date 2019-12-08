@@ -1,0 +1,15 @@
+prefix=/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+ccompiler=/tmp/build/80754af9/libdap4_1532083594984/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc
+cppcompiler=/tmp/build/80754af9/libdap4_1532083594984/_build_env/bin/x86_64-conda_cos6-linux-gnu-c++
+
+Name: libdap
+Description: Common items for the OPeNDAP C++ implementation of the Data Access Protocol
+Version: 3.19.1
+Libs: -L${libdir} -ldap
+Libs.private:  -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -lxml2 -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -lz -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -llzma -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib -licui18n -licuuc -licudata -lm -ldl -lpthread
+Requires.private: 
+Cflags: -I${includedir}/libdap
+

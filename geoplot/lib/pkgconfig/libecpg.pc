@@ -1,0 +1,9 @@
+Name: libecpg
+Description: PostgreSQL libecpg library
+Url: http://www.postgresql.org/
+Version: 11.2
+Requires: 
+Requires.private: libpq libpgtypes
+Cflags: -I/home/jupyter-bweill/final-project-fa2019-natty_daddies/geoplot/include
+Libs: -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geoplot/lib -lecpg
+Libs.private: -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geoplot/lib -lm

@@ -1,0 +1,107 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python",
+    "requests"
+  ],
+  "extracted_package_dir": "/home/jupyter-bweill/.conda/pkgs/pyepsg-0.4.0-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/pyepsg-0.4.0.dist-info/COPYING",
+    "lib/python3.7/site-packages/pyepsg-0.4.0.dist-info/COPYING.LESSER",
+    "lib/python3.7/site-packages/pyepsg-0.4.0.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/pyepsg-0.4.0.dist-info/METADATA",
+    "lib/python3.7/site-packages/pyepsg-0.4.0.dist-info/RECORD",
+    "lib/python3.7/site-packages/pyepsg-0.4.0.dist-info/WHEEL",
+    "lib/python3.7/site-packages/pyepsg-0.4.0.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/pyepsg.py",
+    "lib/python3.7/site-packages/__pycache__/pyepsg.cpython-37.pyc"
+  ],
+  "fn": "pyepsg-0.4.0-py_0.tar.bz2",
+  "license": "LGPL-3.0",
+  "link": {
+    "source": "/home/jupyter-bweill/.conda/pkgs/pyepsg-0.4.0-py_0",
+    "type": 1
+  },
+  "md5": "c3de0e5a1931c6732457300d2832f02f",
+  "name": "pyepsg",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/jupyter-bweill/.conda/pkgs/pyepsg-0.4.0-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/pyepsg-0.4.0.dist-info/COPYING",
+        "path_type": "hardlink",
+        "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+        "sha256_in_prefix": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+        "size_in_bytes": 35147
+      },
+      {
+        "_path": "site-packages/pyepsg-0.4.0.dist-info/COPYING.LESSER",
+        "path_type": "hardlink",
+        "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768",
+        "sha256_in_prefix": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768",
+        "size_in_bytes": 7651
+      },
+      {
+        "_path": "site-packages/pyepsg-0.4.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "sha256_in_prefix": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "site-packages/pyepsg-0.4.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "c3cf3bd661a292e5dcd75374f9bc66ce712d50c825a0c5c900736f4f303a844b",
+        "sha256_in_prefix": "c3cf3bd661a292e5dcd75374f9bc66ce712d50c825a0c5c900736f4f303a844b",
+        "size_in_bytes": 1632
+      },
+      {
+        "_path": "site-packages/pyepsg-0.4.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "8fc3f17a5c75c15b87d666a44eadaabdea4bd1bd9a0426c7906dc9a8435c3c41",
+        "sha256_in_prefix": "8fc3f17a5c75c15b87d666a44eadaabdea4bd1bd9a0426c7906dc9a8435c3c41",
+        "size_in_bytes": 649
+      },
+      {
+        "_path": "site-packages/pyepsg-0.4.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "e52a4c9ea634a1c869ce3cb33e98d61027b294b1d4fd1182e8311948ffb78711",
+        "sha256_in_prefix": "e52a4c9ea634a1c869ce3cb33e98d61027b294b1d4fd1182e8311948ffb78711",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/pyepsg-0.4.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "bfe4b963e4d3dced52006a835d500b7e5fb420c44faa4e5a02aaabb6b540aa72",
+        "sha256_in_prefix": "bfe4b963e4d3dced52006a835d500b7e5fb420c44faa4e5a02aaabb6b540aa72",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "site-packages/pyepsg.py",
+        "path_type": "hardlink",
+        "sha256": "dcdee775312af042f9eea644049355219b9a8460b05fd055a3cc9e375e1c518c",
+        "sha256_in_prefix": "dcdee775312af042f9eea644049355219b9a8460b05fd055a3cc9e375e1c518c",
+        "size_in_bytes": 9102
+      },
+      {
+        "_path": "lib/python3.7/site-packages/__pycache__/pyepsg.cpython-37.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "fb2581c8a56ac969fa4ce3becbbd9e8d3de3510216e79429fe1a0a7331a3a723",
+  "size": 20311,
+  "subdir": "noarch",
+  "timestamp": 1543266859015,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/pyepsg-0.4.0-py_0.tar.bz2",
+  "version": "0.4.0"
+}

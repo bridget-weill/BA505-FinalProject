@@ -1,0 +1,12 @@
+prefix=/home/jupyter-bweill/final-project-fa2019-natty_daddies/geoplot
+libdir=/home/jupyter-bweill/final-project-fa2019-natty_daddies/geoplot/lib
+includedir=/home/jupyter-bweill/final-project-fa2019-natty_daddies/geoplot/include
+
+Name: poppler-glib
+Description: GLib wrapper for poppler
+Version: 0.65.0
+Requires: glib-2.0 >= 2.41 gobject-2.0 >= 2.41 cairo >= 1.10.0
+Requires.private: poppler = 0.65.0
+
+Libs: -L${libdir} -lpoppler-glib
+Cflags: -I${includedir}/poppler/glib

@@ -1,0 +1,17 @@
+QT.core_private.VERSION = 5.9.7
+QT.core_private.name = QtCore
+QT.core_private.module =
+QT.core_private.libs = $$QT_MODULE_LIB_BASE
+QT.core_private.includes = $$QT_MODULE_INCLUDE_BASE/QtCore/5.9.7 $$QT_MODULE_INCLUDE_BASE/QtCore/5.9.7/QtCore
+QT.core_private.frameworks =
+QT.core_private.depends = core
+QT.core_private.uses =
+QT.core_private.module_config = v2 internal_module
+QT.core_private.enabled_features = clock-gettime datetimeparser dlopen doubleconversion glib posix-libiconv icu inotify poll_ppoll sha3-fast
+QT.core_private.disabled_features = gnu-libiconv iconv journald poll_poll poll_pollts poll_select slog2 syslog system-doubleconversion system-pcre2
+QMAKE_LIBS_LIBRT = -lrt
+QMAKE_LIBS_LIBDL = -ldl
+QMAKE_LIBS_GLIB = -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geoplot/lib -lgthread-2.0 -lrt -lglib-2.0
+QMAKE_INCDIR_GLIB = /home/jupyter-bweill/final-project-fa2019-natty_daddies/geoplot/include/glib-2.0 /home/jupyter-bweill/final-project-fa2019-natty_daddies/geoplot/lib/glib-2.0/include /home/jupyter-bweill/final-project-fa2019-natty_daddies/geoplot/include
+QMAKE_LIBS_ICU = -licui18n -licuuc -licudata
+QMAKE_LIBS_LIBATOMIC = 

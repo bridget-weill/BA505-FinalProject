@@ -1,0 +1,8 @@
+poppler_datadir=/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/share/poppler
+
+Name: poppler-data
+Description: Encoding files for use with poppler
+Version: 0.4.9
+
+Cflags: -DPOPPLER_DATADIR=/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/share/poppler
+

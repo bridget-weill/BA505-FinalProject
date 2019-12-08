@@ -1,0 +1,8 @@
+prefix=/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas
+libdir=/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/lib
+includedir=/home/jupyter-bweill/final-project-fa2019-natty_daddies/geopandas/include
+
+Name: poppler-splash
+Description: Splash backend for Poppler PDF rendering library
+Version: 0.67.0
+Requires: poppler = 0.67.0

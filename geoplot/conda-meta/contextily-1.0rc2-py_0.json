@@ -1,0 +1,171 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "geopy",
+    "joblib",
+    "matplotlib",
+    "mercantile",
+    "pillow",
+    "python >=3.5",
+    "rasterio",
+    "requests"
+  ],
+  "extracted_package_dir": "/home/jupyter-bweill/.conda/pkgs/contextily-1.0rc2-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/contextily-1.0rc2.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/contextily-1.0rc2.dist-info/LICENSE.txt",
+    "lib/python3.7/site-packages/contextily-1.0rc2.dist-info/METADATA",
+    "lib/python3.7/site-packages/contextily-1.0rc2.dist-info/RECORD",
+    "lib/python3.7/site-packages/contextily-1.0rc2.dist-info/WHEEL",
+    "lib/python3.7/site-packages/contextily-1.0rc2.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/contextily/__init__.py",
+    "lib/python3.7/site-packages/contextily/_providers.py",
+    "lib/python3.7/site-packages/contextily/place.py",
+    "lib/python3.7/site-packages/contextily/plotting.py",
+    "lib/python3.7/site-packages/contextily/tile.py",
+    "lib/python3.7/site-packages/contextily/tile_providers.py",
+    "lib/python3.7/site-packages/contextily/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/contextily/__pycache__/_providers.cpython-37.pyc",
+    "lib/python3.7/site-packages/contextily/__pycache__/place.cpython-37.pyc",
+    "lib/python3.7/site-packages/contextily/__pycache__/plotting.cpython-37.pyc",
+    "lib/python3.7/site-packages/contextily/__pycache__/tile.cpython-37.pyc",
+    "lib/python3.7/site-packages/contextily/__pycache__/tile_providers.cpython-37.pyc"
+  ],
+  "fn": "contextily-1.0rc2-py_0.tar.bz2",
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/jupyter-bweill/.conda/pkgs/contextily-1.0rc2-py_0",
+    "type": 1
+  },
+  "md5": "26c5c229b3c6c05e448be46938ebaee4",
+  "name": "contextily",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/jupyter-bweill/.conda/pkgs/contextily-1.0rc2-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/contextily-1.0rc2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/contextily-1.0rc2.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "79728a91f9aadc98ee059fd5654dd0dcb6b78b063c93de4400d7f5ef56031e29",
+        "sha256_in_prefix": "79728a91f9aadc98ee059fd5654dd0dcb6b78b063c93de4400d7f5ef56031e29",
+        "size_in_bytes": 1492
+      },
+      {
+        "_path": "site-packages/contextily-1.0rc2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "97185c593c96a5bfe7c3130add1a91261bb70133a8f64e17698ad6052bf18f28",
+        "sha256_in_prefix": "97185c593c96a5bfe7c3130add1a91261bb70133a8f64e17698ad6052bf18f28",
+        "size_in_bytes": 2642
+      },
+      {
+        "_path": "site-packages/contextily-1.0rc2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "c3cf358a93e8f155e7874921cab6d1f5fe5c9d2fea731ae1dde0977be0535441",
+        "sha256_in_prefix": "c3cf358a93e8f155e7874921cab6d1f5fe5c9d2fea731ae1dde0977be0535441",
+        "size_in_bytes": 1290
+      },
+      {
+        "_path": "site-packages/contextily-1.0rc2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "d2b1c339a9dad78873b1ab9ad89d8bed9b64eacb68e363b49e826deced346631",
+        "sha256_in_prefix": "d2b1c339a9dad78873b1ab9ad89d8bed9b64eacb68e363b49e826deced346631",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/contextily-1.0rc2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "c7138cedc78e4ed4c0bec50d8b813bdc5154f2f3ce9394c59751113784202100",
+        "sha256_in_prefix": "c7138cedc78e4ed4c0bec50d8b813bdc5154f2f3ce9394c59751113784202100",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "site-packages/contextily/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e505b27d756bdd3f471b80a17b5510a6983c3b124703ca8565bb37b85a4b63d3",
+        "sha256_in_prefix": "e505b27d756bdd3f471b80a17b5510a6983c3b124703ca8565bb37b85a4b63d3",
+        "size_in_bytes": 267
+      },
+      {
+        "_path": "site-packages/contextily/_providers.py",
+        "path_type": "hardlink",
+        "sha256": "68bef6fd6efaa95308d8d1be8d13648ab677e76b8cca3672a5b9c249d7b62c70",
+        "sha256_in_prefix": "68bef6fd6efaa95308d8d1be8d13648ab677e76b8cca3672a5b9c249d7b62c70",
+        "size_in_bytes": 66478
+      },
+      {
+        "_path": "site-packages/contextily/place.py",
+        "path_type": "hardlink",
+        "sha256": "1306d4961f3c17e539c887f351ee8683aa4ff830fc8f365bc47c35a885fef269",
+        "sha256_in_prefix": "1306d4961f3c17e539c887f351ee8683aa4ff830fc8f365bc47c35a885fef269",
+        "size_in_bytes": 8730
+      },
+      {
+        "_path": "site-packages/contextily/plotting.py",
+        "path_type": "hardlink",
+        "sha256": "5dae5aca7873b20bba454ef691a0364ba0b54c3b89a57453df159a0566c044e7",
+        "sha256_in_prefix": "5dae5aca7873b20bba454ef691a0364ba0b54c3b89a57453df159a0566c044e7",
+        "size_in_bytes": 7550
+      },
+      {
+        "_path": "site-packages/contextily/tile.py",
+        "path_type": "hardlink",
+        "sha256": "52efe78ed63c69a7e087b3f5314879c59237c9b5c8c2a7c53db348f45d7f92dc",
+        "sha256_in_prefix": "52efe78ed63c69a7e087b3f5314879c59237c9b5c8c2a7c53db348f45d7f92dc",
+        "size_in_bytes": 17554
+      },
+      {
+        "_path": "site-packages/contextily/tile_providers.py",
+        "path_type": "hardlink",
+        "sha256": "b413f6bed7e944a68f2ff34ed8bff2beb644b33d96fb472d2e831f0a05d8921d",
+        "sha256_in_prefix": "b413f6bed7e944a68f2ff34ed8bff2beb644b33d96fb472d2e831f0a05d8921d",
+        "size_in_bytes": 1060
+      },
+      {
+        "_path": "lib/python3.7/site-packages/contextily/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/contextily/__pycache__/_providers.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/contextily/__pycache__/place.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/contextily/__pycache__/plotting.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/contextily/__pycache__/tile.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/contextily/__pycache__/tile_providers.cpython-37.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "707f6de1d4a1429c4c1510d3fea57d45a30206af5950b2e216602801814bec55",
+  "size": 22347,
+  "subdir": "noarch",
+  "timestamp": 1564751287222,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/contextily-1.0rc2-py_0.tar.bz2",
+  "version": "1.0rc2"
+}

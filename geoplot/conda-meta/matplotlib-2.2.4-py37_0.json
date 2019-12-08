@@ -1,0 +1,36 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "matplotlib-base 2.2.4 py37hfd891ef_0",
+    "pyqt >=5.9.2,<5.10.0a0",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "extracted_package_dir": "/home/jupyter-bweill/.conda/pkgs/matplotlib-2.2.4-py37_0",
+  "features": "",
+  "files": [],
+  "fn": "matplotlib-2.2.4-py37_0.tar.bz2",
+  "license": "PSF-based",
+  "license_family": "PSF",
+  "link": {
+    "source": "/home/jupyter-bweill/.conda/pkgs/matplotlib-2.2.4-py37_0",
+    "type": 1
+  },
+  "md5": "2d3fbafc94044ad51a186a398b46f780",
+  "name": "matplotlib",
+  "package_tarball_full_path": "/home/jupyter-bweill/.conda/pkgs/matplotlib-2.2.4-py37_0.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "47b342ccdf46c73155fd659d999148b062e6e666fe4a8f6371a416d98e3c2fe6",
+  "size": 6945,
+  "subdir": "linux-64",
+  "timestamp": 1561330804059,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/matplotlib-2.2.4-py37_0.tar.bz2",
+  "version": "2.2.4"
+}

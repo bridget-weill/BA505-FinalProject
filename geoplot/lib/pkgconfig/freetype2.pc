@@ -1,0 +1,14 @@
+prefix=/home/jupyter-bweill/final-project-fa2019-natty_daddies/geoplot
+exec_prefix=/home/jupyter-bweill/final-project-fa2019-natty_daddies/geoplot
+libdir=/home/jupyter-bweill/final-project-fa2019-natty_daddies/geoplot/lib
+includedir=/home/jupyter-bweill/final-project-fa2019-natty_daddies/geoplot/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 23.0.17
+Requires:
+Requires.private: 
+Libs: -L${libdir} -lfreetype
+Libs.private: -lz -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geoplot/lib -lpng16 -lm -lz -lm
+Cflags: -I${includedir}/freetype2

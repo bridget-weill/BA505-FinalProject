@@ -1,0 +1,158 @@
+{
+  "build": "py37h516909a_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "extracted_package_dir": "/home/jupyter-bweill/.conda/pkgs/wrapt-1.11.2-py37h516909a_0",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/wrapt-1.11.2.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/wrapt-1.11.2.dist-info/LICENSE",
+    "lib/python3.7/site-packages/wrapt-1.11.2.dist-info/METADATA",
+    "lib/python3.7/site-packages/wrapt-1.11.2.dist-info/RECORD",
+    "lib/python3.7/site-packages/wrapt-1.11.2.dist-info/WHEEL",
+    "lib/python3.7/site-packages/wrapt-1.11.2.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/wrapt/__init__.py",
+    "lib/python3.7/site-packages/wrapt/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/wrapt/__pycache__/decorators.cpython-37.pyc",
+    "lib/python3.7/site-packages/wrapt/__pycache__/importer.cpython-37.pyc",
+    "lib/python3.7/site-packages/wrapt/__pycache__/wrappers.cpython-37.pyc",
+    "lib/python3.7/site-packages/wrapt/_wrappers.cpython-37m-x86_64-linux-gnu.so",
+    "lib/python3.7/site-packages/wrapt/decorators.py",
+    "lib/python3.7/site-packages/wrapt/importer.py",
+    "lib/python3.7/site-packages/wrapt/wrappers.py"
+  ],
+  "fn": "wrapt-1.11.2-py37h516909a_0.tar.bz2",
+  "license": "BSD 2-Clause",
+  "link": {
+    "source": "/home/jupyter-bweill/.conda/pkgs/wrapt-1.11.2-py37h516909a_0",
+    "type": 1
+  },
+  "md5": "53a6ca4c6e4b150651560c173fcd7be0",
+  "name": "wrapt",
+  "package_tarball_full_path": "/home/jupyter-bweill/.conda/pkgs/wrapt-1.11.2-py37h516909a_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.7/site-packages/wrapt-1.11.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.7/site-packages/wrapt-1.11.2.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "e37c13f84fb3c9a54161b0fcf75f4d302fb86ce42cd6106147bda79e4197d9f2",
+        "sha256_in_prefix": "e37c13f84fb3c9a54161b0fcf75f4d302fb86ce42cd6106147bda79e4197d9f2",
+        "size_in_bytes": 1304
+      },
+      {
+        "_path": "lib/python3.7/site-packages/wrapt-1.11.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "0e815ab72654b812a9f38deb625380da380a303f9ff807402a21b3f80d3fc9b1",
+        "sha256_in_prefix": "0e815ab72654b812a9f38deb625380da380a303f9ff807402a21b3f80d3fc9b1",
+        "size_in_bytes": 6439
+      },
+      {
+        "_path": "lib/python3.7/site-packages/wrapt-1.11.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "f0feace3ee66bd0be0f73887a908e581a7e67da98d528c447725a85ba09d02c9",
+        "sha256_in_prefix": "f0feace3ee66bd0be0f73887a908e581a7e67da98d528c447725a85ba09d02c9",
+        "size_in_bytes": 1064
+      },
+      {
+        "_path": "lib/python3.7/site-packages/wrapt-1.11.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "49bd4e3e64b4895a8b49b11694d1bc6bc44b6aa1facf51df23446dc9374b2b45",
+        "sha256_in_prefix": "49bd4e3e64b4895a8b49b11694d1bc6bc44b6aa1facf51df23446dc9374b2b45",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "lib/python3.7/site-packages/wrapt-1.11.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "25fee472e5edc2350933038bd10cc02c38365a24a25e21fd4e128c8cdeb80d6d",
+        "sha256_in_prefix": "25fee472e5edc2350933038bd10cc02c38365a24a25e21fd4e128c8cdeb80d6d",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "lib/python3.7/site-packages/wrapt/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "195a73ddfc8fe4fd71611dd73fee887caaf4dbc711a6f176c5a1f6ffe4fc505a",
+        "sha256_in_prefix": "195a73ddfc8fe4fd71611dd73fee887caaf4dbc711a6f176c5a1f6ffe4fc505a",
+        "size_in_bytes": 658
+      },
+      {
+        "_path": "lib/python3.7/site-packages/wrapt/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "7b120a08446d238ea88917f75833ae40bb463ba14071f93fee43b76bb4a2a2ec",
+        "sha256_in_prefix": "7b120a08446d238ea88917f75833ae40bb463ba14071f93fee43b76bb4a2a2ec",
+        "size_in_bytes": 942
+      },
+      {
+        "_path": "lib/python3.7/site-packages/wrapt/__pycache__/decorators.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "0b5e585207c4d7cae942ad3f8c546ca56253e729616e2447e40bd305ec3053e9",
+        "sha256_in_prefix": "0b5e585207c4d7cae942ad3f8c546ca56253e729616e2447e40bd305ec3053e9",
+        "size_in_bytes": 8876
+      },
+      {
+        "_path": "lib/python3.7/site-packages/wrapt/__pycache__/importer.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "1b56f63d8d0dadf3bd8e005ebda2fdbaa645f6586c7d0f0a5e93010a07d427c6",
+        "sha256_in_prefix": "1b56f63d8d0dadf3bd8e005ebda2fdbaa645f6586c7d0f0a5e93010a07d427c6",
+        "size_in_bytes": 4200
+      },
+      {
+        "_path": "lib/python3.7/site-packages/wrapt/__pycache__/wrappers.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "8f5f03aa179ae41eafe1553e1bc12e24b9a8887411701b0c6cd72030d6f9dd5e",
+        "sha256_in_prefix": "8f5f03aa179ae41eafe1553e1bc12e24b9a8887411701b0c6cd72030d6f9dd5e",
+        "size_in_bytes": 23988
+      },
+      {
+        "_path": "lib/python3.7/site-packages/wrapt/_wrappers.cpython-37m-x86_64-linux-gnu.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/wrapt_1560833344175/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "82eda272f2534b64f1a780e17fc74ac71588534142d1c806cc94fc0038c32d4e",
+        "sha256_in_prefix": "bb0005e66a7d844f243403b197cac02a65d7ddf1311145a6e07ea7fb66281914",
+        "size_in_bytes": 63600
+      },
+      {
+        "_path": "lib/python3.7/site-packages/wrapt/decorators.py",
+        "path_type": "hardlink",
+        "sha256": "fa4a22ac68947fde935b0dfcdf19548925aa461918daf752a9f03fa9bc1116cb",
+        "sha256_in_prefix": "fa4a22ac68947fde935b0dfcdf19548925aa461918daf752a9f03fa9bc1116cb",
+        "size_in_bytes": 20291
+      },
+      {
+        "_path": "lib/python3.7/site-packages/wrapt/importer.py",
+        "path_type": "hardlink",
+        "sha256": "b474ed152fa723accd78f8e1db24acc90f6483f7f6c78129efec128f79b823ec",
+        "sha256_in_prefix": "b474ed152fa723accd78f8e1db24acc90f6483f7f6c78129efec128f79b823ec",
+        "size_in_bytes": 7926
+      },
+      {
+        "_path": "lib/python3.7/site-packages/wrapt/wrappers.py",
+        "path_type": "hardlink",
+        "sha256": "a25a0b55e23427e9ff73f7411fe80ed0ced4a916fbeab246050156a6feeeceaa",
+        "sha256_in_prefix": "a25a0b55e23427e9ff73f7411fe80ed0ced4a916fbeab246050156a6feeeceaa",
+        "size_in_bytes": 33657
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "4ce81b5cc5a3b715eec35768e50b8e5dafc114cc87b7e924bee77d2194137706",
+  "size": 46682,
+  "subdir": "linux-64",
+  "timestamp": 1560833397856,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/wrapt-1.11.2-py37h516909a_0.tar.bz2",
+  "version": "1.11.2"
+}

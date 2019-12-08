@@ -1,0 +1,120 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "click >=4.0",
+    "python"
+  ],
+  "extracted_package_dir": "/home/jupyter-bweill/.conda/pkgs/cligj-0.5.0-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/cligj-0.5.0-py2.7.egg-info/PKG-INFO",
+    "lib/python3.7/site-packages/cligj-0.5.0-py2.7.egg-info/SOURCES.txt",
+    "lib/python3.7/site-packages/cligj-0.5.0-py2.7.egg-info/dependency_links.txt",
+    "lib/python3.7/site-packages/cligj-0.5.0-py2.7.egg-info/installed-files.txt",
+    "lib/python3.7/site-packages/cligj-0.5.0-py2.7.egg-info/not-zip-safe",
+    "lib/python3.7/site-packages/cligj-0.5.0-py2.7.egg-info/requires.txt",
+    "lib/python3.7/site-packages/cligj-0.5.0-py2.7.egg-info/top_level.txt",
+    "lib/python3.7/site-packages/cligj/__init__.py",
+    "lib/python3.7/site-packages/cligj/features.py",
+    "lib/python3.7/site-packages/cligj/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/cligj/__pycache__/features.cpython-37.pyc"
+  ],
+  "fn": "cligj-0.5.0-py_0.tar.bz2",
+  "license": "BSD 3-Clause",
+  "link": {
+    "source": "/home/jupyter-bweill/.conda/pkgs/cligj-0.5.0-py_0",
+    "type": 1
+  },
+  "md5": "a559037c0c463477b91a94a1b9fc5a6f",
+  "name": "cligj",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/jupyter-bweill/.conda/pkgs/cligj-0.5.0-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/cligj-0.5.0-py2.7.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "b1a926c723f2fa14f1d6313eb3ee525caa875116d861daefcad530c400f65d85",
+        "sha256_in_prefix": "b1a926c723f2fa14f1d6313eb3ee525caa875116d861daefcad530c400f65d85",
+        "size_in_bytes": 5946
+      },
+      {
+        "_path": "site-packages/cligj-0.5.0-py2.7.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "07fbf8bb871b1d7a580c2b7d443cc1bb1fbc0cd81abe67fe68c6927d98756794",
+        "sha256_in_prefix": "07fbf8bb871b1d7a580c2b7d443cc1bb1fbc0cd81abe67fe68c6927d98756794",
+        "size_in_bytes": 237
+      },
+      {
+        "_path": "site-packages/cligj-0.5.0-py2.7.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/cligj-0.5.0-py2.7.egg-info/installed-files.txt",
+        "path_type": "hardlink",
+        "sha256": "f2da3898356886ae94e545c142fa19ff4b0631a4130250400884b8e5c9d820d7",
+        "sha256_in_prefix": "f2da3898356886ae94e545c142fa19ff4b0631a4130250400884b8e5c9d820d7",
+        "size_in_bytes": 168
+      },
+      {
+        "_path": "site-packages/cligj-0.5.0-py2.7.egg-info/not-zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/cligj-0.5.0-py2.7.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "341cf2a4516359823c3eba9e140e44cd8ae58ae5c2625dca8ef03eafe868c154",
+        "sha256_in_prefix": "341cf2a4516359823c3eba9e140e44cd8ae58ae5c2625dca8ef03eafe868c154",
+        "size_in_bytes": 33
+      },
+      {
+        "_path": "site-packages/cligj-0.5.0-py2.7.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "1efcb5b6f8a233329b0750f70185c955ea3310957a4a00acf841c59e11a5c0c0",
+        "sha256_in_prefix": "1efcb5b6f8a233329b0750f70185c955ea3310957a4a00acf841c59e11a5c0c0",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "site-packages/cligj/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "082d81e9ea9cb2a8371ed520828cc1ad85f7d1a9c50e4847469ee8b1ff7e8c2e",
+        "sha256_in_prefix": "082d81e9ea9cb2a8371ed520828cc1ad85f7d1a9c50e4847469ee8b1ff7e8c2e",
+        "size_in_bytes": 3393
+      },
+      {
+        "_path": "site-packages/cligj/features.py",
+        "path_type": "hardlink",
+        "sha256": "f33bd054183ac3bdbee9c672cf5926f78e2ad2b2469f0ead59f4866c0762688a",
+        "sha256_in_prefix": "f33bd054183ac3bdbee9c672cf5926f78e2ad2b2469f0ead59f4866c0762688a",
+        "size_in_bytes": 6555
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cligj/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/cligj/__pycache__/features.cpython-37.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "2ebfd6821a64025dd703b33e6f75254271a7f3deb22c97283284b57acb5ebb9d",
+  "size": 8653,
+  "subdir": "noarch",
+  "timestamp": 1537995048073,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/cligj-0.5.0-py_0.tar.bz2",
+  "version": "0.5.0"
+}

@@ -1,0 +1,13 @@
+prefix=/home/jupyter-bweill/final-project-fa2019-natty_daddies/geoplot
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+modules=1
+
+Name: libXML
+Version: 2.9.9
+Description: libXML library version2.
+Requires:
+Libs: -L${libdir} -lxml2
+Libs.private:  -lpthread -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geoplot/lib -lz -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geoplot/lib -llzma -L/home/jupyter-bweill/final-project-fa2019-natty_daddies/geoplot/lib -lm  
+Cflags: -I${includedir}/libxml2 -I/home/jupyter-bweill/final-project-fa2019-natty_daddies/geoplot/include 

@@ -1,0 +1,164 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "cartopy",
+    "contextily >=1.0rc2",
+    "descartes",
+    "geopandas",
+    "mapclassify",
+    "matplotlib",
+    "pandas",
+    "python >=3.6",
+    "seaborn"
+  ],
+  "extracted_package_dir": "/home/jupyter-bweill/.conda/pkgs/geoplot-0.4.0-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/geoplot-0.4.0.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/geoplot-0.4.0.dist-info/METADATA",
+    "lib/python3.7/site-packages/geoplot-0.4.0.dist-info/RECORD",
+    "lib/python3.7/site-packages/geoplot-0.4.0.dist-info/WHEEL",
+    "lib/python3.7/site-packages/geoplot-0.4.0.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/geoplot/__init__.py",
+    "lib/python3.7/site-packages/geoplot/crs.py",
+    "lib/python3.7/site-packages/geoplot/datasets.py",
+    "lib/python3.7/site-packages/geoplot/geoplot.py",
+    "lib/python3.7/site-packages/geoplot/ops.py",
+    "lib/python3.7/site-packages/geoplot/utils.py",
+    "lib/python3.7/site-packages/geoplot/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/geoplot/__pycache__/crs.cpython-37.pyc",
+    "lib/python3.7/site-packages/geoplot/__pycache__/datasets.cpython-37.pyc",
+    "lib/python3.7/site-packages/geoplot/__pycache__/geoplot.cpython-37.pyc",
+    "lib/python3.7/site-packages/geoplot/__pycache__/ops.cpython-37.pyc",
+    "lib/python3.7/site-packages/geoplot/__pycache__/utils.cpython-37.pyc"
+  ],
+  "fn": "geoplot-0.4.0-py_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/jupyter-bweill/.conda/pkgs/geoplot-0.4.0-py_0",
+    "type": 1
+  },
+  "md5": "37058d59eeafe222ce280b59bf58cebf",
+  "name": "geoplot",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/jupyter-bweill/.conda/pkgs/geoplot-0.4.0-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/geoplot-0.4.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/geoplot-0.4.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "5764e9210ef78981eb1660927219cd729faa611735d97f4483e57a6bca45eeaa",
+        "sha256_in_prefix": "5764e9210ef78981eb1660927219cd729faa611735d97f4483e57a6bca45eeaa",
+        "size_in_bytes": 828
+      },
+      {
+        "_path": "site-packages/geoplot-0.4.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "50e54bf448b094eb6f2b3f0a6d755aeaba35d4a84702cbb50fbbeae8bc795078",
+        "sha256_in_prefix": "50e54bf448b094eb6f2b3f0a6d755aeaba35d4a84702cbb50fbbeae8bc795078",
+        "size_in_bytes": 1106
+      },
+      {
+        "_path": "site-packages/geoplot-0.4.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "c18058d843b9d0584071c9295a63b77376709363002c00b1ea53c097a8152a71",
+        "sha256_in_prefix": "c18058d843b9d0584071c9295a63b77376709363002c00b1ea53c097a8152a71",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/geoplot-0.4.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "9159d5fbeaac28cfc3da1e7f9a55e5f87347847f371a16ce231f2fb35fb5c49d",
+        "sha256_in_prefix": "9159d5fbeaac28cfc3da1e7f9a55e5f87347847f371a16ce231f2fb35fb5c49d",
+        "size_in_bytes": 22
+      },
+      {
+        "_path": "site-packages/geoplot/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "96a7806a4fc999d70317744708356f04247103c972c99b9eed56b7f181b9d6d9",
+        "sha256_in_prefix": "96a7806a4fc999d70317744708356f04247103c972c99b9eed56b7f181b9d6d9",
+        "size_in_bytes": 544
+      },
+      {
+        "_path": "site-packages/geoplot/crs.py",
+        "path_type": "hardlink",
+        "sha256": "1966eea6cac966c07b15a7028fb81da7a74813a3106fa55ae8193f677a1e30af",
+        "sha256_in_prefix": "1966eea6cac966c07b15a7028fb81da7a74813a3106fa55ae8193f677a1e30af",
+        "size_in_bytes": 7851
+      },
+      {
+        "_path": "site-packages/geoplot/datasets.py",
+        "path_type": "hardlink",
+        "sha256": "6346d1ab5bc649574e7db64331d3778ab6d7977a1c47bd9e97c71d5fcd3d7059",
+        "sha256_in_prefix": "6346d1ab5bc649574e7db64331d3778ab6d7977a1c47bd9e97c71d5fcd3d7059",
+        "size_in_bytes": 2628
+      },
+      {
+        "_path": "site-packages/geoplot/geoplot.py",
+        "path_type": "hardlink",
+        "sha256": "4d0033ccb36a6dc3c8e4626ca11fa11c44ed2e89b659dbb645cea2f002711736",
+        "sha256_in_prefix": "4d0033ccb36a6dc3c8e4626ca11fa11c44ed2e89b659dbb645cea2f002711736",
+        "size_in_bytes": 86337
+      },
+      {
+        "_path": "site-packages/geoplot/ops.py",
+        "path_type": "hardlink",
+        "sha256": "fed407eb1973c03acf6c369930e67c8b1731bb2cb9c298cd1d008613a183d689",
+        "sha256_in_prefix": "fed407eb1973c03acf6c369930e67c8b1731bb2cb9c298cd1d008613a183d689",
+        "size_in_bytes": 12594
+      },
+      {
+        "_path": "site-packages/geoplot/utils.py",
+        "path_type": "hardlink",
+        "sha256": "d51e2df4e0ad200c4f7360852920c0bf14d8019a96a05c29423bd116094b877f",
+        "sha256_in_prefix": "d51e2df4e0ad200c4f7360852920c0bf14d8019a96a05c29423bd116094b877f",
+        "size_in_bytes": 3437
+      },
+      {
+        "_path": "lib/python3.7/site-packages/geoplot/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/geoplot/__pycache__/crs.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/geoplot/__pycache__/datasets.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/geoplot/__pycache__/geoplot.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/geoplot/__pycache__/ops.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/geoplot/__pycache__/utils.cpython-37.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "geoplot",
+  "sha256": "2c7cdbcc5380f46603c4232cb34d0d737c5f61934db9168ffcbbcee84641dc13",
+  "size": 27786,
+  "subdir": "noarch",
+  "timestamp": 1572638060180,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/geoplot-0.4.0-py_0.tar.bz2",
+  "version": "0.4.0"
+}

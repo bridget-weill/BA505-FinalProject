@@ -1,50 +1,91 @@
-# BA 505 Final Projects
-## Fall 2019
-__This is the final project document.__
+# Beer 4 the Road
 
-## Overview
-Students work in 4-person teams to define and complete a moderately-sized analytical project in Python. Detailed instructions are provided regarding selecting and framing a suitable analysis. Grading criteria will reflect demonstrated achievement of the objectives and compliance with the requirements.
+**by: Pritpal Bhangu, Sean Bernard, Andre Loukrezis & Bridget Weill**
 
-## Objectives
-* Apply Python skills to a student-selected analytical project of moderate (but nontrivial) scope and complexity.
-* Demonstrate mastery of Python, Pandas, Matplolib, Jupyter, and GitHub.
-* Work in teams, with professional-quality tools and standards.
+[Presentation Slides](https://docs.google.com/presentation/d/1j5LYrznqsJzO7ANX2bR8IL3AXGds6GPl9qsd7yKjEDw/edit?usp=sharing)
 
-## Project Requirements
-* **All work must be your own.** It is your responsibility to demonstrate the unique contributions made by your work. You are also expected to thoroughly understand and be able to explain any work done by your teammates.
-* **Academic honesty policies and scholarship norms apply.** All relevant previous work and data sources must be properly cited.
-* **The analysis must be fully reproducible, even and especially with new data.** This is to be professional work, subject to prevalent standards. Suggestion: create a separate module to load/clean/integrate your data. That will allow us to test and reuse your work in other projects.
-* **Descriptive analytics (as in QA400) are sufficient.** However, there is no need to constrain your work. If you can apply forecasting or decision modeling, then feel free to do so.
-* **The analysis should stand on its own.** All work will be posted a *public* repository created via GitHub Classroom. You will be asked to present your work on the final day of class, but the analysis itself should be readily accessible and understandable from your GitHub repositories without installing any additional software.
-* **Project size and scope should be sufficient to demonstrate mastery of Python, Pandas, and Matplotlib.** At a minimum the datasets used should have at least 10K records with a dozen or more fields. Further, there should be some opportunity for you to filter/reduce/analyze the data using Pandas . If the work could just as easily be performed by an undergraduate in Excel, then keep looking for another project.
-* **All data used must be posted in your GitHub repository.** If you are borrowing data from Kaggle, then please cite the original source in your `Readme.md` file. It should be possible for anyone to reproduce your work, including collecting the data from original sources.
-* **Document your work.** At a minimum, each analytical step (code cell) should be documented with markdown cells above and below stating your intention (_above_) and interpretation (_below_). Your notebooks should tell a story about the data. **One should be able to read the rendered notebook in GitHub (without running your code or your presentation) and know exactly what you did, why you did it, and why we should care about the results.**
 
-## Instructions  
 
-1. **Watch and learn.** Study the following tutorial, which sets the bar for what constitutes A-level work in this course:  
-[Reproducible Data Analysis in Jupyter](https://jakevdp.github.io/blog/2017/03/03/reproducible-data-analysis-in-jupyter)  
-The tutorial is in 10 parts, with some of the more advanced work in the second half. At a minimum, your project should use the practices demonstrated in videos 1-5. To get the best grade, however, try something more advanced like the practices shown in videos 6-10.  
-2. **Survey the best examples you can find.** One very convenient place to look is [Kaggle](https://kaggle.com), which has submissions from numerous data analytics competitions. Here a few particularly engaging Kaggle submissions to study:
-  * [asindico//from-exploration-to-prediction](https://www.kaggle.com/asindico/from-exploration-to-prediction)
-  * [anokas/exploratory-data-analysis-4 2017](https://www.kaggle.com/anokas/exploratory-data-analysis-4)
-  * [sudalairajkumar/simple-exploration-notebook-5](https://www.kaggle.com/sudalairajkumar/simple-exploration-notebook-5)
-  * [pmarcelino/comprehensive-data-exploration-with-python](https://www.kaggle.com/pmarcelino/comprehensive-data-exploration-with-python)
-  * [This](https://github.com/fairfield-university-ba505-fall2018/final-project-filip-s-angels) is an example of last year's student project in this course. You should use that as the reference for an excellent project. __NOTE__ that two of the three students in this group got hired because of this project.
+## Project Objective
 
-   While some are more "finished" than others, you'll find that each tells a story with data. Try to learn to do that.  
 
-3. **Find a suitable data source.** It must meet the requirements above. Collecting your own data (from an API, crawling/scraping, etc.) is encouraged though not required. If you are using a dataset discovered through Kaggle, then be sure to cite it and state how the analysis you are doing is different. Whatever you do, don't just replicate someone else's analysis. That will result in an immediate F for the course and (very likely) expulsion from the program. 
-4. **Develop a few research questions that you'd like to answer based on the data.** The questions should be stated in the preamble to your notebook. The analysis should also demonstrate your abilities. Read the requirements again to makes sure your analysis will comply.
-5. **Do some analysis**. This is likely to be a learn-as-you-go process. Suggestion: each team member should keep a scratch notebook file for trying things out. Then transfer your work to the finished notebook just before completion. However, delete your scratch notebooks just before your final commit and push to GitHub. 
-6. **Try something more advanced.** Once you have a basic framework for your analysis, extend it with something more advanced. Perhaps you could try an advanced plot or maybe another data source or maybe replicated sampling to demonstrate reproducibility/lack of bias.
-7. **Write and commit a `Readme.md` file inside your repository outlining your project.** This file is what GitHub will display by default for your repository, so make a good impression. It's standard Markdown, just like we use in Jupyter. Instead of using slides, you will start and end your final presentation with the `Readme.md`, so use it to link to all your files and provide (meta) information about your project: motivations, data sources, challenges, lessons learned, etc. Suggestion: write this stuff early and update it as you go along.
-8. **Clean up your final notebook and GitHub repo.** The final notebook is your presentation (i.e., there will be no slides) so make sure it is readable on a TV monitor from across the room. It is also your report, so make sure every objective, decision, interpretation, and conclusion you make is throughly explained and professional-looking. (Yes, styling and organization matters. We're professionals, right?) Make sure you don't have any unfinished or extraneous artifacts left over from your explorations. (Again, we're professionals, not undergrads.)
+In this project, we looked at beer and brewery data in the United States.  Our objective was to  to determine a fun road trip where we visited cities and states that had plenty of breweries and matched our beer preferences.  We produced descriptive statistics such as which states/regionsr have the most breweries/wineries, which states/regions produce beers with the highest ABV, etc.  
 
-## Timeline/Workplan
-* **Oct., 29:** Review assignment, form teams, and begin planning out the work. Do not create any shared GitHub repositories yet. 
-* **Nov, 5:** Follow instructions in class to set up your teams and shared repositories in GitHub classroom. Also prepare a short (5-minute verbal) __proposal__ for your project that covers i) data source; ii) research questions; iii) anticipated challenges; and iv) what results you expect to present on the final day of class.
-* **Nov., 19 and 26:** Use the class time to meet with your team and ask questions when needed. (Note: You are expected to show up for class. We have other classwork to do yet.)
-* **Dec., 3:** Preview of your results. This is like a dress rehearsal to address any remaining problems before your final presentations. 
-* **Dec., 10:** Present your finished work. Walk us through your project, including your source/motivations, finished notebook, modules/testing, and lessons learned. There will be no slides for this. Just use your work. See the instructions for the `Readme.md` file above. 
+## Motivations
 
+As a group, we were interested in learning more about breweries across United States.  We also wanted to learn more about the types of beer as our group has our own unique preferences to beer with regards to taste, abv, etc. Another motivation was to identify areas in the United States that cater to each of our specific beer/wine preferences. We were able to break it down by region, state, and city.  Ultimately, we felt diving into this data would be a solid starting point for deciding where the best places to travel to would be based on our own individual preferences.
+
+## Data Source
+
+The data used in this project comes from the following: 
+
+- Brewery and Beer Types Data - https://www.kaggle.com/nickhould/craft-cans
+- Wine Data - https://www.kaggle.com/pabloa/wine-magazine/data
+
+**Additional references:** 
+
+1. set up a basic pie chart in matplotlib  https://matplotlib.org/3.1.1/gallery/pie_and_polar_charts/pie_features.html
+2. show the values of each beer type https://stackoverflow.com/questions/41088236/how-to-have-actual-values-in-matplotlib-pie-chart-displayed-python?rq=1
+3. info on craft beer styles https://www.morebeer.com/articles/Popular-Craft-Beer-Styles
+4. info on craft beer styles https://learn.kegerator.com/american-ipa/
+
+
+## Library Glossary
+
+
+**Pandas:** 
+is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.
+
+**Numpy:** 
+is the fundamental package for scientific computing with Python. It contains among other things:
+
+a powerful N-dimensional array object
+
+sophisticated (broadcasting) functions
+
+tools for integrating C/C++ and Fortran code
+
+useful linear algebra, Fourier transform, and random number capabilities
+
+Besides its obvious scientific uses, NumPy can also be used as an efficient multi-dimensional container of generic data. Arbitrary data-types can be defined. This allows NumPy to seamlessly and speedily integrate with a wide variety of databases.
+
+**Matplotlib:**
+is a Python 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms. Matplotlib can be used in Python scripts, the Python and IPython shells, the Jupyter notebook, web application servers, and four graphical user interface toolkits.
+
+Python’s fundamental plotting library (pg. 50 Pandas Textbook)
+
+**Seaborn:**  
+
+a library that builds on matplotlib by providing a higher-level interface for statistical graphics. It provides an interface to produce prettier and more complex visualizations with fewer lines of code.
+
+The seaborn library is tightly integrated with Pandas and the rest of the PyData stack (numpy, scipy, statsmodels), making visualizations from any part of the data analysis process a breeze. Since seaborn is built on top of matplotlib, the user still has the ability to fine-tune the visualizations. (pg. 61 Pandas Textbook)
+
+## Challenges
+
+
+### Working with a limited dataset.
+- the breweries data was incomplete, as it technically did not have every single registered brewewry in the United States.
+- the beer data did not have sufficient enough data on the IBU of each beer.  Only a small fraction of the data had this metric.  It would've been nice to add this layer to our analysis based on people's taste/bitterness preference.
+- we would've liked to have had latitude/longitude coordinates for the breweries as this would've enhanced our exploration into the geographical data.
+
+### Identifying a Project Scope and Deciding on a Story to Tell
+- we ran descriptive statistics and discussed different approaches to our analysis
+- we ultimately had to be realistic and figure out what the best story was based on our analysis
+- we had to cancel previous ideas due to scope/timeline/skillset 
+
+### Importing and Using Geopandas.
+- figuring out how to incorporate geopandas was equally fun and challennging. 
+- we were able to create chloropeth heatmaps to visualize states with the most breweries, but we had to create additional dataframes due to lack of more detailed geographical data.
+
+### Figuring out GitHub Process.
+- as a team, we had to agree on a process where we could share our work and ensure it is pushed properly/stored in the repository. 
+
+### Difficult to Visualize Ideas.
+- do not have the skillset yet to create complex visualizations and build functions based on our ideas.
+- it was challenging when we had an idea but weren't able to produce it based on our skillset.
+
+
+## Lessons Learned
+- everything with Python is trial and error.
+- explore the dataset more before deciding on analysis.
+- look at other options and try out different datasets.
